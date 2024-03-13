@@ -9,10 +9,9 @@ import Gumball from "./ImagensMain/gumball.png"
 import Meninas from "./ImagensMain/meninas.png"
 import TomJerry from "./ImagensMain/tomejerry.png"
 
-import * as S from "./MainStyle"
-
 import Programacao from "../Programacao/Programacao.jsx"
 
+import * as S from "./MainStyle"
 
 function Main() {
 
@@ -25,6 +24,7 @@ function Main() {
 
     return (
         <S.MainStyle>
+
             <S.StyledSection>
                 <img src={Scooby} alt="Scooby" />
                 <img src={Ben10} alt="Ben10" />
@@ -39,7 +39,9 @@ function Main() {
 
             </S.StyledSection2>
 
-             <Programacao /> 
+<Programacao />
+
+
         </S.MainStyle>
     )
 }

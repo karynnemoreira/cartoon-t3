@@ -17,7 +17,6 @@ function App() {
     <GlobalStyle />
     <Header/>
     <Main />
-  
     </>
   )
 }
