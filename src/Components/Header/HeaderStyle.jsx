@@ -7,6 +7,13 @@ export const StyleHeader = styled.header`
     align-items: center;
     height: 20vh;
     padding: 1rem;
+
+    @media(min-width: 360px) and (max-width: 800px){
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    }
+
 `
 
 export const StyleSection = styled.section`

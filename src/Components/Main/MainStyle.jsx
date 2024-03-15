@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 
 export const MainStyle = styled.main `
-border: solid 10px red;
 `
 
 export const StyledSection = styled.section`
