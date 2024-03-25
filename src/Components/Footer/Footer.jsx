@@ -24,9 +24,9 @@ function Footer() {
 
             </S.PrimeiraSectionFooter>
 
-<S.SegundaSectionFooter>
-    <p>© 2024 Cartoon Network</p>
-</S.SegundaSectionFooter>
+            <S.SegundaSectionFooter>
+                <p>© 2024 Cartoon Network</p>
+            </S.SegundaSectionFooter>
 
         </footer>
     )
